@@ -1,0 +1,70 @@
+
+/* For medium screens (e.g. tablets) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .todo-list-container {
+        width: 85%;
+    }
+
+    #todo-task {
+        width: 70%;
+        padding: 0.6em 1em;
+        font-size: 0.8em;
+    }
+
+    #task-table {
+        font-size: .9em;
+    }
+
+    .item-status {
+        display: none;
+    }
+
+    .delete-btn {
+        font-size: .8em;
+    }
+
+    .edit-btn {
+        font-size: .8em;
+    }
+}
+
+
+
+/* For small screens (e.g. mobile devices) */
+@media only screen and (max-width: 600px) {
+    .todo-list-container {
+        width: 95%;
+    }
+
+    .input-row{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        padding: 1em 0 0 0;
+    }
+
+    #todo-task {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #add-task{
+        margin: .8em auto;
+    }
+
+    #task-table {
+        font-size: .8em;
+    }
+    .item-status {
+        display: none;
+    }
+
+    .delete-btn {
+        font-size: .8em;
+    }
+    
+    .edit-btn {
+        font-size: .8em;
+    }
+}
