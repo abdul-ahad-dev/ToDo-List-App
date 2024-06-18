@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/mediaQuery.css">
 </head>
 <body>
     
@@ -18,7 +19,7 @@
 
     <div class="todo-list-container">
         <div class="input-row">
-            <input type="text" id="todo-task">
+            <input type="text" id="todo-task" placeholder="Enter Task Here">
             <button id="add-task">Add Task</button>
         </div>
 
@@ -26,10 +27,10 @@
             <table id="task-table">
                 <thead>
                     <tr id="table-head">
-                        <th>No.</th>
-                        <th>Todo item</th>
-                        <th>Status</th>
-                        <th>Action</th>
+                        <th class="item-no">No.</th>
+                        <th class="item">Todo item</th>
+                        <th class="item-status">Status</th>
+                        <th class="item-btns">Action</th>
                     </tr>
                 </thead>
                 <tbody id="task-body">
@@ -39,6 +40,11 @@
             </table>
         </div>
     </div>
+
+
+    <footer>
+        <p>© 2024 Abdul Ahad. All rights reserved.</p>
+    </footer>
 
 </body>
 
