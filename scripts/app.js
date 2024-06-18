@@ -44,8 +44,8 @@ function updateTaskTable()
           <td class="item">${task.task}</td>
           <td class="item-status">${task.status}</td>
           <td class="item-btns">
-            <button class="edit-btn" onclick="editTask(${task.id})">E</button>
-            <button class="delete-btn" onclick="deleteTask(${task.id})">D</button>
+            <button class="edit-btn" onclick="editTask(${task.id})">Edit</button>
+            <button class="delete-btn" onclick="deleteTask(${task.id})">Delete</button>
           </td>
         </tr>
       `;
